@@ -9,16 +9,15 @@
 	--bg-primary: #fff;
 	--bg-secondary: #fff;
 	/* fonts */
-	--font-primary: Arial, Helvetica, sans-serif;
+	--font-primary: 'Public Sans', sans-serif;
 	--font-weight: 400;
-	--font-size: 12px;
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
@@ -40,7 +39,7 @@ main {
 
 .container {
 	width: 100%;
-	max-width: 1310px;
+	max-width: 1141px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -59,3 +58,32 @@ a {
 	text-decoration: none;
 	background-color: transparent;
 }
+
+/* HEADER START */
+.site-header {
+	padding-top: 64px;
+	padding-bottom: 54px;
+}
+
+.site-header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site-header__nav-list {
+	display: flex;
+	gap: 42px;
+}
+
+.site-header__nav-link {
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	color: #33323d;
+}
+
+.site-header__nav-link:hover {
+	color: #5fb4a2;
+}
+/* HEADER END */
