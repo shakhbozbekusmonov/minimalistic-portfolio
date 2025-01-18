@@ -1,0 +1,61 @@
+/* FONTS */
+
+/* ROOT */
+:root {
+	/* colors */
+	--color-primary: #000;
+	--color-secondary: #fff;
+	/* backgrounds */
+	--bg-primary: #fff;
+	--bg-secondary: #fff;
+	/* fonts */
+	--font-primary: Arial, Helvetica, sans-serif;
+	--font-weight: 400;
+	--font-size: 12px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	scroll-behavior: inherit;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	font-family: var(--font-primary);
+	font-weight: var(--font-weight);
+}
+
+main {
+	flex-grow: 1;
+}
+
+.container {
+	width: 100%;
+	max-width: 1310px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	background-color: transparent;
+}
